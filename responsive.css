@@ -1,0 +1,54 @@
+@media screen and (max-width:360px)
+{
+    div.slide-1{
+        height:300px;
+    }
+    div.invite{
+        position: absolute;
+        top:235px;
+        display: block;
+    }
+    .main p{
+        display: block;
+    }
+    .invite-btn{
+        margin-top:10px;
+        width: 90%;
+    }
+    .mail{
+        text-align: center;
+        height:50px;
+        width: 90%;
+    }
+    .slide p{
+        margin: 15px auto 50px;
+    }
+}
+@media screen and (max-width:480px)
+{
+    .mail{
+        text-align: center;
+        height:50px;
+        width: 90%;
+    }
+    .invite-btn{
+        margin-top:10px;
+        width: 90%;
+    }
+    .slide-2 p{
+        margin: 15px auto 50px;
+    }
+}
+@media screen and (min-width:660px)
+{
+    .invite-btn{
+/*        color: red;*/
+        margin-left: 5px;
+    }
+    .slide-2 p{
+        width:70%;
+        padding:10px;
+        padding-bottom: 20px;
+    }
+    
+}
